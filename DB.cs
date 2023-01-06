@@ -9,7 +9,7 @@ namespace pool_net
         static MySqlConnection myConnection; // Объявление переменной подключения - статического поля класса 
         static string SQLServerName = "localhost"; // ip хоста MySqlServer
         static int port = 3306; // порт MySqlServer
-        static string dataBase = "petshop"; // Название БД
+        static string dataBase = "pool"; // Название БД
         static string username = "root"; // Имя пользователя
         static string password = ""; // Пароль
         public static void OpenConnection() // Статический метод, открывающий соединение с БД
